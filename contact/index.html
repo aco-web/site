@@ -1,1 +1,125 @@
-Soon
+<html lang="en-us">
+    <head>
+        <title>ACO Web</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
+        <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <meta property="Title field"       content="A. CO. Website!"/>
+        <meta property="description"       content="This is ACO's official website, this page provides you everything you need and an about us area. Useful links can also be found on 
+                                                    this page. Enjoy ACO!"/>
+        <meta name="theme-color" content="#7405e6" />
+        <style>
+            section header {
+                font-family:'Comfortaa';
+                font-size: 62px;
+            }
+        </style>
+        <script src="security.js"></script>
+    </head>
+
+    <body onkeypress="return disableCtrlKeyCombination(event);" onkeydown="return disableCtrlKeyCombination(event);">
+        <section id="navbar">
+            <nav class="navbar navbar-expand-lg navbar-dark navbar-blue">
+                <a class="navbar-brand" href="#"><img src="images/icoSmall.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about/index.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="products/index.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact/index.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://acogoogle.business.site/">Updates/More</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+        <section>
+            <header class="home">
+                Soon...
+            </header>
+            <div class="textrotate">
+            <script>
+                var TxtRotate = function(el, toRotate, period) {
+  this.toRotate = toRotate;
+  this.el = el;
+  this.loopNum = 0;
+  this.period = parseInt(period, 10) || 2000;
+  this.txt = '';
+  this.tick();
+  this.isDeleting = false;
+};
+
+TxtRotate.prototype.tick = function() {
+  var i = this.loopNum % this.toRotate.length;
+  var fullTxt = this.toRotate[i];
+
+  if (this.isDeleting) {
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
+  } else {
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
+  }
+
+  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+  var that = this;
+  var delta = 300 - Math.random() * 100;
+
+  if (this.isDeleting) { delta /= 2; }
+
+  if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
+    this.isDeleting = true;
+  } else if (this.isDeleting && this.txt === '') {
+    this.isDeleting = false;
+    this.loopNum++;
+    delta = 500;
+  }
+
+  setTimeout(function() {
+    that.tick();
+  }, delta);
+};
+
+window.onload = function() {
+  var elements = document.getElementsByClassName('txt-rotate');
+  for (var i=0; i<elements.length; i++) {
+    var toRotate = elements[i].getAttribute('data-rotate');
+    var period = elements[i].getAttribute('data-period');
+    if (toRotate) {
+      new TxtRotate(elements[i], JSON.parse(toRotate), period);
+    }
+  }
+  // INJECT CSS
+  var css = document.createElement("style");
+  css.type = "text/css";
+  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+  document.body.appendChild(css);
+};
+        </script>
+        <h1>This page 
+            <span
+                 class="txt-rotate"
+                 data-period="1500"
+                 data-rotate='[ "is being designed for you!", "is coming soon!", "is almost ready!", "is being updated!", "will be ready soon!", "is getting a paint job!", "is almost dry!", "will be done in a bit", "will be coming soon!" ]'></span>
+            </h1>
+        </div>
+        </section>
+    </body>
+</html>
