@@ -1,3 +1,4 @@
+<script>
 function disableCtrlKeyCombination(e)
 {
 //list all CTRL + key combinations you want to disable
@@ -35,3 +36,4 @@ return false;
 }
 return true;
 }
+</script>
