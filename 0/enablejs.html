@@ -1,0 +1,176 @@
+<html lang="en-us">
+   <head>
+      <title>ACO | Enable JS</title>
+      <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+      <link rel="manifest" href="site.webmanifest">
+      <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <!--META META META META META META META EMBEDS META META META META META META META META META META META META META META-->
+      <meta name=description content="Official Website">
+      <meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+      <meta itemprop=name content=ACO>
+      <meta itemprop=description content="Official Website">
+      <meta itemprop=image content=https://i.ibb.co/hXKcGjy/aco-chip-set-logo-blue.png>
+      <meta name=twitter:card content=summary_large_image>
+      <meta name=twitter:title content=ACO Website>
+      <meta name=twitter:description content="Official Website">
+      <meta name=twitter:image content=https://i.ibb.co/hXKcGjy/aco-chip-set-logo-blue.png>
+      <meta property=og:title content=ACO Website>
+      <meta property=og:url content=https://ayaan-codes.github.io/web>
+      <meta property=og:site_name content=ACO>
+      <meta property=og:type content=website>
+      <meta property=og:description content="Official Website">
+      <meta property=og:image content=https://i.ibb.co/hXKcGjy/aco-chip-set-logo-blue.png>
+      <!--META META META META META META META EMBEDS META META META META META META META META META META META META META META-->
+      <noscript><meta http-equiv="refresh" content="0;url=https://ayaan-codes.github.io/web/doit/enablejs.html"></noscript>
+      <script language=JavaScript>
+         //Disable right mouse click Script
+         
+         var message="🔴 ACO WebModeration™ : Right click has been disabled for security reasons.";
+         
+         function clickIE4(){
+         if (event.button==2){
+         alert(message);
+         return false;
+          }
+         }
+         
+         function clickNS4(e){
+         if (document.layers||document.getElementById&&!document.all){
+         if (e.which==2||e.which==3){
+         alert(message);
+         return false;
+         }
+         }
+         }
+         
+         if (document.layers){
+         document.captureEvents(Event.MOUSEDOWN);
+         document.onmousedown=clickNS4;
+         }
+         else if (document.all&&!document.getElementById){
+         document.onmousedown=clickIE4;
+         }
+         
+         document.oncontextmenu=new Function("alert(message);return false")
+      </script>
+      <script>
+         function disableCtrlKeyCombination(e)
+         {
+         //list all CTRL + key combinations you want to disable
+         var forbiddenKeys = new Array('a', 'b', 'c', 'd', 'e', 'f' , 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',);
+         var key;
+         var isCtrl;
+         if(window.event)
+         {
+         key = window.event.keyCode;     //IE
+         if(window.event.ctrlKey)
+         isCtrl = true;
+         else
+         isCtrl = false;
+         }
+         else
+         {
+         key = e.which;     //firefox
+         if(e.ctrlKey)
+         isCtrl = true;
+         else
+         isCtrl = false;
+         }
+         //if ctrl is pressed check if other key is in forbidenKeys array
+         if(isCtrl)
+         {
+         for(i=0; i<forbiddenKeys.length; i++)
+         {
+         //case-insensitive comparation
+         if(forbiddenKeys[i].toLowerCase() == String.fromCharCode(key).toLowerCase())
+         {
+         alert('🔴 ACO WebModeration™ : ctrl + '+String.fromCharCode(key) +' has been disabled for security reasons.');
+         return false;
+         }
+         }
+         }
+         return true;
+         }
+      </script>
+<style>
+body {background-color: white;}
+details {
+  user-select: none;
+}
+details[open] {
+  & summary svg {
+    transform: rotate(-90deg);
+  }
+}
+summary {
+  cursor: pointer;
+}
+svg {
+  transition: all 0.3s;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+:focus {
+  outline: none;
+}
+</style>
+<link rel="stylesheet" href="jsplease.css">
+      <script src="security.js"></script>
+   </head>
+   <body onkeypress="return disableCtrlKeyCombination(event);" onkeydown="return disableCtrlKeyCombination(event);">
+<div class="app min-h-screen bg-grey-light font-sans overflow-hidden">
+  <div class="h-32 flex items-center justify-center bg-red">
+    <h1 class="text-2xl text-teal-darkest -mt-8">Enable JavaScript</h1>
+    
+    
+  </div>
+  <div class="wrapper border-b-2 -mt-8 bg-white overflow-hidden mx-auto max-w-sm rounded shadow-lg">
+    <h3 class="bg-grey-lightest px-8 py-6 font-semibold">
+ACO Uses Java for security and extra functions. Enable it to use the site. <br><br>
+      📌How to Enable.....</h3>
+    <div class="question-wrap mx-8 mt-2">
+      <details class="question py-4 border-b border-grey-lighter">
+        <summary class="flex items-center">1. Click Refresh
+          <button class="ml-auto">
+          <svg class="fill-current opacity-75 w-4 h-4 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z"/></svg>
+        </button>
+        </summary>
+        <div class="mt-4 leading-normal text-sm ">This is done to stop the loop for refresh.</div>
+      </details>
+      <details class="question py-4 border-b border-grey-lighter">
+        <summary class="flex items-center">2. Click Lock Icon On Search Bar
+          <button class="ml-auto">
+          <svg class="fill-current opacity-75 w-4 h-4 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z"/></svg>
+        </button>
+        </summary>
+        <div class="mt-4 leading-normal text-sm">
+          <ul>
+            <li>Find where you see the links to websites.</li>
+            <li>Click on it and find where it says JavaScript.</li>
+            <li>Click the options and ALLOW.</li>
+          </ul>
+        </div>
+      </details>
+      <details class="question py-4 border-b border-grey-lighter">
+        <summary class="flex items-center">Refresh This Page
+          <button class="ml-auto">
+          <svg class="fill-current opacity-75 w-4 h-4 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z"/></svg>
+        </button>
+        </summary>
+        <div class="mt-4 leading-normal text-sm ">Please refresh the page to save, then click the back arrow provided on your browser. ⬅ (near the top left of your screen)</div>
+      </details>
+    </div>
+    <a href="https://website.smb.company" class="text-right block py-6 px-8 no-underline text-grey-darker hover:underline hover:text-black text-sm">ACO Website</a>
+  </div>
+  <footer class="text-center py-8 text-grey-dark">
+    ⭕ACO DoIt System
+  </footer>
+</div>
+      
+   </body>
+</html>
