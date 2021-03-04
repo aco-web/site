@@ -61,3 +61,6 @@ section .buttons:hover {
         text-decoration: none;
     }
 }
+{
+    user-select: none;
+    }
