@@ -7,4 +7,4 @@ This repo holds the main pages of the ACO website such as home, about, projects,
 TOS - Privacy Policy Applies
 
 
-©Copyright - ACO™ | TOS
+©Copyright - ACO™ 
