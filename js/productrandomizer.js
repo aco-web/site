@@ -77,7 +77,7 @@ let card_content = [["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%
                  "<h1>ACO Meet</h1>",
                  "<p class='price'>ACO Social</p>",
                  "<p>HD video and voice meetings for FREE. Get ACO MEET (beta) today and start connecting you team!</p>",
-                 "<button onclick='window.location.href=`mailto:a.co.network01@gmail.com`;;>Request beta!</button>"],
+                 "<button onclick='window.location.href=`mailto:a.co.network01@gmail.com`;'>Request beta!</button>"],
                  
                     ["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRUPThBalpSHOLEopPZcckZ1JrgYYZddJJtFQ&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
                  "<h1>ACO Store</h1>",
