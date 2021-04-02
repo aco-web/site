@@ -1,36 +1,43 @@
 const cards = document.getElementsByClassName("card");
 
-let card_content = [["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTlYvzt71tyiUOpi5T6DK7z2KpNo6wMQpTrAg&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
+let card_content = [
+  
+                    /* PRODUCT 1*/
+                    ["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTlYvzt71tyiUOpi5T6DK7z2KpNo6wMQpTrAg&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
                     "<h1>ACO Online Security & Ad Blocker</h1>",
                     "<p class='price'>ACO Tech</p>",
                     "<p>ACO Online Security and Ad blocker! The best free secure service online!</p>",
                     "<button onclick='window.location.href=`https://ayaan-codes.github.io/a-co/inactivepage.html`;'>Get it now!</button>"],
-
+                    /* PRODUCT 1*/
+                    /* PRODUCT 2*/
                     ["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRJWOO3EVsc8acnLzYq_GAGAdvhhmlkk0UVYA&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
                     "<h1>ACO Search</h1>",
                     "<p class='price'>ACO Tech</p>",
                     "<p>ACO Search is the best search engine out there, REAL results and NO FAKE INFO! Advanced searching to get you exactly what you want!</p>",
                     "<button onclick='window.location.href=`https://ayaan-codes.github.io/search/`;'>Search now!</button>"],
-
+                    /* PRODUCT 2*/
+                    /* PRODUCT 3*/
                     ["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSXTZ2XiLm2ygP16D7WMrgtrbcOYqk3Cr48Fg&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
                     "<h1>ACO Calculator</h1>",
                     "<p class='price'>ACO Tech</p>",
                     "<p>An advanced calculator with all the functions, 100% accurate and always updated! 0.0004ms response time!</p>",
                     "<button onclick='window.location.href=`https://ayaan-codes.github.io/calculator/`;'>Use now!</button>],"],
-
+                    /* PRODUCT 3*/
+                    /* PRODUCT 4*/
                     ["<img src='https://img.freepik.com/free-vector/premium-collection-badge-design-vector_53876-43821.jpg?size=338&ext=jpg' alt='Denim Jeans' style='width:100%'>",
                     "<h1>ACO Premium</h1>",
                     "<p class='price'>ACO Membership</p>",
                     "<p>Perks, on perks, on perks, on more perks! The BEST membership you can get with discounts, more product, and extra service. There is at least 1 new perk per week!</p>",
                     "<button onclick='window.location.href=`premium.html`;'>Get prime today!</button>"],
-
-    
+                    /* PRODUCT 4*/
+                    /* PRODUCT 5*/
                     ["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ7ygxR8NckMCSqqP8UWkG4d_k4gBGfh0Bx9w&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
                  "<h1>SMARTi app</h1>",
                  "<p class='price'>ACO app</p>",
                  "<p>(BETA) This is the new SMARTi app, it is like Siri and Alexa. We have a ton of fetures and can beat everything else on the internet!</p>",
                  "<button onclick='window.location.href=`https://ayaan-codes.github.io/aco-smarti/`;'>Try it early!</button>"],
-
+                    /* PRODUCT 5*/
+                      /* PRODUCT 6*/
                     ["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQeHXr2zRVtPoTEk3vQmLqPCVFBAkd6XpV9BA&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
                  "<h1>Upload Magic</h1>",
                  "<p class='price'>ACO Service</p>",
