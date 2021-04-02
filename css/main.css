@@ -2,6 +2,21 @@ html {
     background-color: #202021;
 }
 
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-track {
+    background: #666;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #ddd;
+}
+
 section header {
     margin-top: 0;
     margin-bottom: 20px;
