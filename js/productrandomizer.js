@@ -234,7 +234,27 @@ let card_content = [["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%
                   "<h1>ACO Maps</h1>",
                   "<p class='price'>ACO Connectivity</p>",
                   "<p>Navigate the world in 2d or 3d maps that update every week! Become a ACO assistant and add places to the map for everyone else to enjoy! Find something about a place already on the map? Well write a reveiw about it!</p>",
-                  "<button onclick='window.location.href=`mailto:a.co.network01@gmail.com`;'>Request beta!</button>"]];
+                  "<button onclick='window.location.href=`mailto:a.co.network01@gmail.com`;'>Request beta!</button>"],
+                   
+                    ["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSbF2aenrgIOevm7YJutgS90BK1-_9IKTRaw&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
+                    "<h1>ACO Watcher</h1>",
+                    "<p class='price'>ACO Tech</p>",
+                    "<p>Watcher shows you live of landing paths, games, and anything else you can think of.</p>",
+                    "<button onclick='window.location.href=`https://comingsoon.acodevelopment.repl.co/`;'>Watch Live</button>"],
+                    
+                    ["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSbF2aenrgIOevm7YJutgS90BK1-_9IKTRaw&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
+                    "<h1>ACO Education Tools</h1>",
+                    "<p class='price'>ACO EDU</p>",
+                    "<p>Providing tools and learning support for all students and teachers to empower the world..</p>",
+                    "<button onclick='window.location.href=`https://comingsoon.acodevelopment.repl.co/`;'>Learn Today</button>"],
+                    
+                    ["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSbF2aenrgIOevm7YJutgS90BK1-_9IKTRaw&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
+                    "<h1>ACO Health</h1>",
+                    "<p class='price'>ACO Medicine</p>",
+                    "<p>Providing tumor detection and other medical tools to provide healthcare to everyone.</p>",
+                    "<button onclick='window.location.href=`https://comingsoon.acodevelopment.repl.co/`;'>Watch Live</button>"],
+                    
+                   ];
 
 function shuffle(array) {
    array.sort(() => Math.random() - 0.5);
