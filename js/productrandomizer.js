@@ -194,7 +194,7 @@ let card_content = [["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%
                  "<p>Get ACO AI for your service by just contacting us and telling us how it should work, to date ACO AI works with over 500 apps worldwide!</p>",
                  "<button onclick=`window.location.href='mailto:aco.development.studio@gmail.com`;'>Order Now!</button>"], 
 
-                    ["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS9ayFrOsnA_bi2IYERZp4l0bgNoZKTQrumLQ&usqp=CAU'>",
+                    ["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSbF2aenrgIOevm7YJutgS90BK1-_9IKTRaw&usqp=CAU'>",
                  "<h1>ACO LiveStat</h1>",
                  "<p class='price'>ACO Tech</p>",
                  "<p>Get live data for sports, elections, and everything you can possibly think of with LiveStat</p>",
@@ -206,8 +206,8 @@ let card_content = [["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%
                  "<p>Get updates and info on new things on ACO! Search the website for news, articals, or questions.</p>",
                  "<button onclick=`window.location.href='mailto:a.co.network01@gmail.com`;'>Request beta!</button>",],
 
-                    ["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTQI3APc5PbBD6Sz_QOneUDQvCFH_9rIuMJ_A&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
-                 "<h1>ACO ask</h1>",
+                    ["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSbF2aenrgIOevm7YJutgS90BK1-_9IKTRaw&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
+                 "<h1>ACO Ask</h1>",
                  "<p class='price'>ACO Social</p>",
                  "<p>Ask questions and get answers from others, make threads and conversations and just enjoy!</p>",
                  "<button onclick='window.location.href=`mailto:aco.development.studio@gmail.com`;'>Request beta!</button>"], 
@@ -218,19 +218,19 @@ let card_content = [["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%
                  "<p>A briliant tool that helps websites owners moderate websites, it is even used on the website you are on right now! Try doing CTRL+SHIFT+I on your keyboard... notice it wont work as it is blocked, you can do many more with this tool that helps keep you website safe and secure!</p>",
                  "<button onclick='window.location.href=`mailto:a.co.network01@gmail.com?subject=Request for ACO WebModeration`;'>Request beta!</button>"], 
 
-                    ["<img src='https://cdn.dribbble.com/users/2592071/screenshots/7327591/logo-artboard_2_4x_4x.png' alt='Denim Jeans' style='width:100%'>",
+                    ["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSbF2aenrgIOevm7YJutgS90BK1-_9IKTRaw&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
                  "<h1>ACO Developer Tools</h1>",
                  "<p class='price'>ACO People</p>",
                  "<p>Get the ACO Developer tool kit and be set to make apps, websites, and much more online... This pack gives you <br>1. ACO Git Account<br>2. ACO Code Editor Account<br>3. ACO Code Help Community Account<br>4. Templates that let you make your apps ASAP!</p>",
                  "<button onclick='window.location.href=`mailto:a.co.network01@gmail.com?subject=Request Beta for ACO Developer Tools`;'>Request beta!</button>"],
 
-                    ["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnWzrQ9UFAnN1PNXil4ckdo8vdq-kQme3qVQ&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
+                    ["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSbF2aenrgIOevm7YJutgS90BK1-_9IKTRaw&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
                  "<h1>ACO WHAT?</h1>",
                  "<p class='price'>ACO Help&Support</p>",
                  "<p>Stuck on something related to ACO? Want something other than our live support desk? Well Just click try beta and be part of our new 'Auto Email' system... all you have to do is click what you want to ask a question about and the email is already wrote out for you! Try it!</p>",
                  "<button onclick='window.location.href=`mailto:aco.development.studio@gmail.com?subject=Auto Help Email&body= Auto Composed email!`;'>Ask here!</button>"],
 
-                  ["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcROAmz7yqStJsIfaICjbFWVgyNEUiqvhODdqQ&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
+                  ["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSbF2aenrgIOevm7YJutgS90BK1-_9IKTRaw&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
                   "<h1>ACO Maps</h1>",
                   "<p class='price'>ACO Connectivity</p>",
                   "<p>Navigate the world in 2d or 3d maps that update every week! Become a ACO assistant and add places to the map for everyone else to enjoy! Find something about a place already on the map? Well write a reveiw about it!</p>",
