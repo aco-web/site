@@ -1,10 +1,10 @@
 const cards = document.getElementsByClassName("card");
 
-let card_content = [["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTlYvzt71tyiUOpi5T6DK7z2KpNo6wMQpTrAg&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
-                    "<h1>ACO Online Security & Ad Blocker</h1>",
+let card_content = [["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTlYvzt71tyiUOpi5T6DK7z2KpNo6wMQpTrAg&usqp=CAU' alt='Image' style='width:100%'>",
+                    "<h1>ACO Online Security</h1>",
                     "<p class='price'>ACO Tech</p>",
-                    "<p>ACO Online Security and Ad blocker! The best free secure service online!</p>",
-                    "<button onclick='window.location.href=`https://ayaan-codes.github.io/a-co/inactivepage.html`;'>Get it now!</button>"],
+                    "<p>With a built in VPN, ad blocker, and the best in class security this product keeps you and your devices safe from all sorts of threats. AOS App always adapts to new threats and is always up to date.</p>",
+                    "<button onclick='window.location.href=`https://getbeta.acodevelopment.repl.co/`;'>Get Beta</button>"],
 
                     ["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRJWOO3EVsc8acnLzYq_GAGAdvhhmlkk0UVYA&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
                     "<h1>ACO Search</h1>",
