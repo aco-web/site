@@ -220,13 +220,13 @@ let card_content = [["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%
 
                     ["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSbF2aenrgIOevm7YJutgS90BK1-_9IKTRaw&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
                  "<h1>ACO Developer Tools</h1>",
-                 "<p class='price'>ACO People</p>",
+                 "<p class='price'>ACO Tools</p>",
                  "<p>Get the ACO Developer tool kit and be set to make apps, websites, and much more online... This pack gives you <br>1. ACO Git Account<br>2. ACO Code Editor Account<br>3. ACO Code Help Community Account<br>4. Templates that let you make your apps ASAP!</p>",
                  "<button onclick='window.location.href=`mailto:a.co.network01@gmail.com?subject=Request Beta for ACO Developer Tools`;'>Request beta!</button>"],
 
                     ["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSbF2aenrgIOevm7YJutgS90BK1-_9IKTRaw&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
                  "<h1>ACO WHAT?</h1>",
-                 "<p class='price'>ACO Help&Support</p>",
+                 "<p class='price'>ACO Tools</p>",
                  "<p>Stuck on something related to ACO? Want something other than our live support desk? Well Just click try beta and be part of our new 'Auto Email' system... all you have to do is click what you want to ask a question about and the email is already wrote out for you! Try it!</p>",
                  "<button onclick='window.location.href=`mailto:aco.development.studio@gmail.com?subject=Auto Help Email&body= Auto Composed email!`;'>Ask here!</button>"],
 
@@ -234,25 +234,37 @@ let card_content = [["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%
                   "<h1>ACO Maps</h1>",
                   "<p class='price'>ACO Connectivity</p>",
                   "<p>Navigate the world in 2d or 3d maps that update every week! Become a ACO assistant and add places to the map for everyone else to enjoy! Find something about a place already on the map? Well write a reveiw about it!</p>",
-                  "<button onclick='window.location.href=`mailto:a.co.network01@gmail.com`;'>Request beta!</button>"],
+                  "<button onclick='window.location.href=`mailto:a.co.network01@gmail.com`;'>Coming Soon</button>"],
                    
                     ["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSbF2aenrgIOevm7YJutgS90BK1-_9IKTRaw&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
                     "<h1>ACO Watcher</h1>",
                     "<p class='price'>ACO Tech</p>",
                     "<p>Watcher shows you live of landing paths, games, and anything else you can think of.</p>",
-                    "<button onclick='window.location.href=`https://comingsoon.acodevelopment.repl.co/`;'>Watch Live</button>"],
+                    "<button onclick='window.location.href=`https://comingsoon.acodevelopment.repl.co/`;'>Coming Soon</button>"],
                     
                     ["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSbF2aenrgIOevm7YJutgS90BK1-_9IKTRaw&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
                     "<h1>ACO Education Tools</h1>",
                     "<p class='price'>ACO EDU</p>",
                     "<p>Providing tools and learning support for all students and teachers to empower the world..</p>",
-                    "<button onclick='window.location.href=`https://comingsoon.acodevelopment.repl.co/`;'>Learn Today</button>"],
+                    "<button onclick='window.location.href=`https://comingsoon.acodevelopment.repl.co/`;'>Coming Soon</button>"],
                     
                     ["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSbF2aenrgIOevm7YJutgS90BK1-_9IKTRaw&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
                     "<h1>ACO Health</h1>",
                     "<p class='price'>ACO Medicine</p>",
                     "<p>Providing tumor detection and other medical tools to provide healthcare to everyone.</p>",
-                    "<button onclick='window.location.href=`https://comingsoon.acodevelopment.repl.co/`;'>Watch Live</button>"],
+                    "<button onclick='window.location.href=`https://comingsoon.acodevelopment.repl.co/`;'>Coming Soon</button>"],
+                    
+                    ["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSbF2aenrgIOevm7YJutgS90BK1-_9IKTRaw&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
+                    "<h1>ACO Weather</h1>",
+                    "<p class='price'>ACO Medicine</p>",
+                    "<p>Providing tumor detection and other medical tools to provide healthcare to everyone.</p>",
+                    "<button onclick='window.location.href=`https://comingsoon.acodevelopment.repl.co/`;'>Coming Soon</button>"],
+                    
+                    ["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSbF2aenrgIOevm7YJutgS90BK1-_9IKTRaw&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
+                    "<h1>ACO Energy</h1>",
+                    "<p class='price'>ACO Brand</p>",
+                    "<p>Providing tumor detection and other medical tools to provide healthcare to everyone.</p>",
+                    "<button onclick='window.location.href=`https://comingsoon.acodevelopment.repl.co/`;'>Coming Soon</button>"],
                     
                    ];
 
