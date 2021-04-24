@@ -266,6 +266,12 @@ let card_content = [["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%
                     "<p>Providing tumor detection and other medical tools to provide healthcare to everyone.</p>",
                     "<button onclick='window.location.href=`https://comingsoon.acodevelopment.repl.co/`;'>Coming Soon</button>"],
                     
+                    ["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSbF2aenrgIOevm7YJutgS90BK1-_9IKTRaw&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
+                    "<h1>ACO Music</h1>",
+                    "<p class='price'>ACO Content</p>",
+                    "<p>Home made and music from the worlds most loved artists, ACO music provides premium and high quality music for everyone..</p>",
+                    "<button onclick='window.location.href=`https://comingsoon.acodevelopment.repl.co/`;'>Coming Soon</button>"],
+                    
                    ];
 
 function shuffle(array) {
