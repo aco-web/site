@@ -278,6 +278,12 @@ let card_content = [["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%
                     "<p>Drone detection systems and security systems for all. From developing nations to places with 2 wars at a time, we secure the world, econamies, and human life.</p>",
                     "<button onclick='window.location.href=`https://comingsoon.acodevelopment.repl.co/`;'>Coming Soon</button>"],
                     
+                    ["<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSbF2aenrgIOevm7YJutgS90BK1-_9IKTRaw&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
+                    "<h1>ACO Intigrate</h1>",
+                    "<p class='price'>ACO Tool</p>",
+                    "<p>Intigrate anything in seconds and connect apps to each other. Multitask and do things you were not able to before.</p>",
+                    "<button onclick='window.location.href=`https://comingsoon.acodevelopment.repl.co/`;'>Coming Soon</button>"],
+                    
                    ];
 
 function shuffle(array) {
