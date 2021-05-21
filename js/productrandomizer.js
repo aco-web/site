@@ -74,14 +74,6 @@ let card_content = [
     ],
 
     [
-        "<img src='https://images.creativemarket.com/0.1.0/ps/5118724/300/200/m2/fpnw/wm0/lla64lky0elrdtlla245uwsw9sgj7bhpl5jqvck7u5nzk2h59wil6hkfj3utvzrd-.jpg?1538135279&s=bde3d3d58bcd025fc4569a6ead8707e3' alt='Denim Jeans' style='width:100%'>",
-        "<h1>ACO Development</h1>",
-        "<p class='price'>ACO Tech</p>",
-        "<p>Get professional websites and app that amaze! Get custom everything tech for a cheap price (Currently not available)</p>",
-        "<button onclick='window.location.href=`mailto:aco.development.studio@gmail.com`;'>Order now!</button>",
-    ],
-
-    [
         "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTICslbkLBp8Sax80dD_lIqprMf-J8NbzmCAg&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
         "<h1>ACO Games</h1>",
         "<p class='price'>Lazo Entertainment</p>",
@@ -162,14 +154,6 @@ let card_content = [
     ],
 
     [
-        "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTTXktCPkKL-iO2rmZp7WvvZFCThnteqyiExw&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
-        "<h1>ACO Verification System</h1>",
-        "<p class='price'>ACO Tech</p>",
-        "<p>Verify people, items, and services and see who is legit with ACO Verification</p>",
-        "<button onclick='window.location.href=`mailto:aco.development.studio@gmail.com`;'>Order Now!</button>",
-    ],
-
-    [
         "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsf5ofzRZRn1JIQ0rJSHNEl4gT1Fey7irTrw&usqp=CAU'>",
         "<h1>ACO Cast</h1>",
         "<p class='price'>ACO Tech</p>",
@@ -234,14 +218,6 @@ let card_content = [
     ],
 
     [
-        "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRrU4ZuGCw31KHQh4X4RsEGyMS6WeByo8jnUw&usqp=CAU'>",
-        "<h1>ACO AutoCore</h1>",
-        "<p class='price'>ACO Tech</p>",
-        "<p>AutoCore your devices and make life easy, ACO AutoCore is a group of ACO products designed to make your laptop, phone, or any other device better!</p>",
-        "<button onclick=`window.location.href='mailto:a.co.network01@gmail.com`;'>Request beta!</button>",
-    ],
-
-    [
         "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTsvHQJTBCxdDF3A7_gHVKMwxAogMJ0nnRiSw&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
         "<h1>ACO SpellCheck</h1>",
         "<p class='price'>ACO Assistant</p>",
@@ -282,14 +258,6 @@ let card_content = [
     ],
 
     [
-        "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTglmk6Lxnw_ABAoVWe5VkThaH3qdL22SpKEg&usqp=CAU'>",
-        "<h1>ACO WebModeration</h1>",
-        "<p class='price'>ACO Websites</p>",
-        "<p>A briliant tool that helps websites owners moderate websites, it is even used on the website you are on right now! Try doing CTRL+SHIFT+I on your keyboard... notice it wont work as it is blocked, you can do many more with this tool that helps keep you website safe and secure!</p>",
-        "<button onclick='window.location.href=`mailto:a.co.network01@gmail.com?subject=Request for ACO WebModeration`;'>Request beta!</button>",
-    ],
-
-    [
         "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSbF2aenrgIOevm7YJutgS90BK1-_9IKTRaw&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
         "<h1>ACO Developer Tools</h1>",
         "<p class='price'>ACO Tools</p>",
@@ -323,32 +291,8 @@ let card_content = [
 
     [
         "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSbF2aenrgIOevm7YJutgS90BK1-_9IKTRaw&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
-        "<h1>ACO Education Tools</h1>",
-        "<p class='price'>ACO EDU</p>",
-        "<p>Providing tools and learning support for all students and teachers to empower the world..</p>",
-        "<button onclick='window.location.href=`https://comingsoon.acodevelopment.repl.co/`;'>Coming Soon</button>",
-    ],
-
-    [
-        "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSbF2aenrgIOevm7YJutgS90BK1-_9IKTRaw&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
-        "<h1>ACO Health</h1>",
-        "<p class='price'>ACO Medicine</p>",
-        "<p>Providing tumor detection and other medical tools to provide healthcare to everyone.</p>",
-        "<button onclick='window.location.href=`https://comingsoon.acodevelopment.repl.co/`;'>Coming Soon</button>",
-    ],
-
-    [
-        "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSbF2aenrgIOevm7YJutgS90BK1-_9IKTRaw&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
         "<h1>ACO Weather</h1>",
         "<p class='price'>ACO Medicine</p>",
-        "<p>Providing tumor detection and other medical tools to provide healthcare to everyone.</p>",
-        "<button onclick='window.location.href=`https://comingsoon.acodevelopment.repl.co/`;'>Coming Soon</button>",
-    ],
-
-    [
-        "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSbF2aenrgIOevm7YJutgS90BK1-_9IKTRaw&usqp=CAU' alt='Denim Jeans' style='width:100%'>",
-        "<h1>ACO Energy</h1>",
-        "<p class='price'>ACO Brand</p>",
         "<p>Providing tumor detection and other medical tools to provide healthcare to everyone.</p>",
         "<button onclick='window.location.href=`https://comingsoon.acodevelopment.repl.co/`;'>Coming Soon</button>",
     ],
