@@ -15,7 +15,6 @@
 
    <!--🔼Visual Head\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/-->
       <title>ACO | About Us</title>
-      <meta http-equiv="refresh" content="5; URL=https://aco.company" />
       <link rel="apple-touch-icon" sizes="180x180" href="https://i.imgur.com/OQxPnyN.png">
       <link rel="icon" type="image/png" sizes="32x32" href="https://i.imgur.com/OQxPnyN.png">
       <link rel="icon" type="image/png" sizes="16x16" href="https://i.imgur.com/OQxPnyN.png">
