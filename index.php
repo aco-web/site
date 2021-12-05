@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <!--
 ╭━━━┳━━━┳━━━╮
@@ -13,7 +14,6 @@
 
    <!--🔼Visual Head\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/\---/-->
       <title>ACO Website</title>
-      <meta http-equiv="refresh" content="5; URL=https://aco.company" />
       <link rel="apple-touch-icon" sizes="180x180" href="https://i.imgur.com/OQxPnyN.png">
       <link rel="icon" type="image/png" sizes="32x32" href="https://i.imgur.com/OQxPnyN.png">
       <link rel="icon" type="image/png" sizes="16x16" href="https://i.imgur.com/OQxPnyN.png">
@@ -224,6 +224,9 @@
                   </li>
                   <li class="nav-item">
                      <a class="nav-link" href="https://acogoogle.business.site/">Updates/More</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="login/login.php">Login</a>
                   </li>
                </ul>
             </div>

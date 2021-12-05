@@ -1,7 +1,7 @@
 <?php
 session_start();
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === false){
-    header("location: welcome.php");
+    header("location: login.php");
     exit;
 }
 
@@ -9,7 +9,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === false){
 <!DOCTYPE html>
 <html>
   <body>
-  <h1>welcome to app</h1>
+  <h1>Welcome to ACO:</h1>
     <h2><?php echo $_SESSION["usr"]; ?></h2>
   </body>
 </html>
