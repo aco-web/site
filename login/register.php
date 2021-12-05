@@ -65,19 +65,18 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     if(empty($username_err) && empty($password_err) && empty($confirm_password_err)){
         
         // Prepare an insert statement
-        $sql = "INSERT INTO users (username, password, number) VALUES (?, ?, ?)";
+        $sql = "INSERT INTO users (password, username, number) VALUES (?, ?, ?)";
          
         if($stmt = mysqli_prepare($link, $sql)){
             // Bind variables to the prepared statement as parameters
             $id = rand(10000, 99999);
-            mysqli_stmt_bind_param($stmt, "sss", $password, $username, $id);
-
-            echo("yum yum");
+            $param_password = password_hash($password, PASSWORD_DEFAULT);
+            mysqli_stmt_bind_param($stmt, "sss", $param_password, $username, $id);
             
             // Set parameters
             $param_username = $username;
-            $param_password = password_hash($password, PASSWORD_DEFAULT); // Creates a password hash
-            
+             // Creates a password hash
+             
             // Attempt to execute the prepared statement
             if(mysqli_stmt_execute($stmt)){
                 // Redirect to login page
@@ -91,7 +90,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 // Redirect user to welcome page
                 header("location: after.php");
             } else{
-                echo "Oops! Something went wrong. Please try again later.";
+                echo("Something went wrong. Please try again later.");
             }
 
             // Close statement
