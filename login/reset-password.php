@@ -76,10 +76,40 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <meta charset="UTF-8">
     <title>Reset Password</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
-    <style type="text/css">
-        body{ font: 14px sans-serif; }
-        .wrapper{ width: 350px; padding: 20px; }
-    </style>
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+      <link rel="stylesheet" href="../css/main.css">
+      <link rel="stylesheet" href="../css/bootstrap.css">
+      <!---c u s t o m--->
+      <link rel="stylesheet" href="https://ayaan-codes.github.io/packages/style/one.css">
+      <link rel="stylesheet" href="https://ayaan-codes.github.io/packages/style/two.css">
+      <link rel="stylesheet" href="https://ayaan-codes.github.io/packages/style/three.css">
+      <link rel="stylesheet" href="https://ayaan-codes.github.io/packages/style/extra.css">
+      <style>
+         section header {
+         font-family:'Comfortaa';
+         font-size: 62px;
+         }
+         
+      /* width */
+      ::-webkit-scrollbar {
+      width: 10px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+      background: #202021; 
+      }
+ 
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+      background: #dbd7d7; 
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+      background: grey; 
+      }
+	   </style>
 </head>
 <body>
     <div class="wrapper">
