@@ -1,3 +1,6 @@
+echo 'Git ops'
+git stash
+git pull
 echo 'Ready'
 rm -rf /var/www/your_domain
 mv ./- /var/www/your_domain
