@@ -21,3 +21,8 @@ body {
 .invalid-feedback {
     color: red
 }
+.alert-danger {
+    background-color: red;
+    color: #202021;
+    padding: 15px 32px;
+}
