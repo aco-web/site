@@ -8,8 +8,7 @@ body {
 .wrapper { 
     width: 500px; padding: 20px; 
 }
-.btn-primary {
-    background-color: green;
+.btn {
     border: none;
     color: white;
     padding: 15px 32px;
@@ -17,6 +16,10 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    background-color: red;
+}
+.btn-primary {
+    background-color: green;
 }
 .invalid-feedback {
     color: red
