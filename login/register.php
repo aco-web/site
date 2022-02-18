@@ -102,49 +102,51 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     mysqli_close($link);
 }
 ?>
- 
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    
+
     <meta charset="UTF-8">
     <title>Sign Up</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
-      <link rel="stylesheet" href="../css/main.css">
-      <link rel="stylesheet" href="../css/bootstrap.css">
-      <!---c u s t o m--->
-      <link rel="stylesheet" href="https://ayaan-codes.github.io/packages/style/one.css">
-      <link rel="stylesheet" href="https://ayaan-codes.github.io/packages/style/two.css">
-      <link rel="stylesheet" href="https://ayaan-codes.github.io/packages/style/three.css">
-      <link rel="stylesheet" href="https://ayaan-codes.github.io/packages/style/extra.css">
-      <style>
-         section header {
-         font-family:'Comfortaa';
-         font-size: 62px;
-         }
-         
-      /* width */
-      ::-webkit-scrollbar {
-      width: 10px;
-      }
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!---c u s t o m--->
+    <link rel="stylesheet" href="https://ayaan-codes.github.io/packages/style/one.css">
+    <link rel="stylesheet" href="https://ayaan-codes.github.io/packages/style/two.css">
+    <link rel="stylesheet" href="https://ayaan-codes.github.io/packages/style/three.css">
+    <link rel="stylesheet" href="https://ayaan-codes.github.io/packages/style/extra.css">
+    <style>
+    section header {
+        font-family: 'Comfortaa';
+        font-size: 62px;
+    }
 
-      /* Track */
-      ::-webkit-scrollbar-track {
-      background: #202021; 
-      }
- 
-      /* Handle */
-      ::-webkit-scrollbar-thumb {
-      background: #dbd7d7; 
-      }
+    /* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
 
-      /* Handle on hover */
-      ::-webkit-scrollbar-thumb:hover {
-      background: grey; 
-      }
-	   </style>
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #202021;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #dbd7d7;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: grey;
+    }
+    </style>
 </head>
+
 <body>
     <div class="wrapper">
         <h2>Sign Up</h2>
@@ -152,17 +154,23 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
             <div class="form-group">
                 <label>Username</label>
-                <input type="text" name="username" class="form-control <?php echo (!empty($username_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $username; ?>">
+                <input type="text" name="username"
+                    class="form-control <?php echo (!empty($username_err)) ? 'is-invalid' : ''; ?>"
+                    value="<?php echo $username; ?>">
                 <span class="invalid-feedback"><?php echo $username_err; ?></span>
-            </div>    
+            </div>
             <div class="form-group">
                 <label>Password</label>
-                <input type="password" name="password" class="form-control <?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $password; ?>">
+                <input type="password" name="password"
+                    class="form-control <?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>"
+                    value="<?php echo $password; ?>">
                 <span class="invalid-feedback"><?php echo $password_err; ?></span>
             </div>
             <div class="form-group">
                 <label>Confirm Password</label>
-                <input type="password" name="confirm_password" class="form-control <?php echo (!empty($confirm_password_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $confirm_password; ?>">
+                <input type="password" name="confirm_password"
+                    class="form-control <?php echo (!empty($confirm_password_err)) ? 'is-invalid' : ''; ?>"
+                    value="<?php echo $confirm_password; ?>">
                 <span class="invalid-feedback"><?php echo $confirm_password_err; ?></span>
             </div>
             <div class="form-group">
@@ -171,6 +179,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
             <p>Already have an account? <a href="login.php">Login here</a>.</p>
         </form>
-    </div>    
+    </div>
 </body>
+
 </html>

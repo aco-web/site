@@ -99,10 +99,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
       <link rel="stylesheet" href="../css/main.css">
       <link rel="stylesheet" href="../css/bootstrap.css">
       <!---c u s t o m--->
-      <link rel="stylesheet" href="https://ayaan-codes.github.io/packages/style/one.css">
-      <link rel="stylesheet" href="https://ayaan-codes.github.io/packages/style/two.css">
-      <link rel="stylesheet" href="https://ayaan-codes.github.io/packages/style/three.css">
-      <link rel="stylesheet" href="https://ayaan-codes.github.io/packages/style/extra.css">
+      
       <style>
          section header {
          font-family:'Comfortaa';
