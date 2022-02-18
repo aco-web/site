@@ -6,7 +6,7 @@ body {
     font: 14px sans-serif; 
 }
 .wrapper { 
-    width: 350px; padding: 20px; 
+    width: 500px; padding: 20px; 
 }
 .btn-primary {
     background-color: green;
@@ -17,4 +17,7 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+.invalid-feedback {
+    color: redl
 }
